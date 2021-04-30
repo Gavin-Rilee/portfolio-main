@@ -1,10 +1,14 @@
 
 import './App.css';
+import React from 'react';
+
+// import Components
+import AboutMe from './pages/AboutMe';
 
 function App() {
   return (
     <div className="App">
-     Film
+     <AboutMe/>
     </div>
   );
 }
