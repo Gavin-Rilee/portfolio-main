@@ -2,13 +2,14 @@ import React from 'react'
 
 //Page Components
 import AboutSection from '../component/AboutSection';
-
+import ServicesSection from '../component/ServicesSection';
 
 const AboutMe = () => {
     return (
-        <div>
+        <>
           <AboutSection/>  
-        </div>
+          <ServicesSection/>
+        </> 
     )
 }
 
